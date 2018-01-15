@@ -1,6 +1,6 @@
 set nobackup
-set directory=~/vimwork
-set undodir=~/vimwork
+set directory=~/.vim/work
+set undodir=~/.vim/work
 
 set list
 set listchars=tab:>-,trail:-,eol:$
@@ -8,11 +8,11 @@ set number
 
 set laststatus=2
 
-set runtimepath+=~/vimwork/dein/repos/github.com/Shougo/dein.vim
+set runtimepath+=~/.vim/dein/repos/github.com/Shougo/dein.vim
 
-call dein#begin(expand('~/vimwork/dein'))
+call dein#begin(expand('~/.vim/dein'))
 call dein#add('Shougo/dein.vim')
-" インストールしたいプラグインを以下に記述する
+" 繧､繝ｳ繧ｹ繝医�ｼ繝ｫ縺励◆縺�繝励Λ繧ｰ繧､繝ｳ繧剃ｻ･荳九↓險倩ｿｰ縺吶ｋ
 " call dein#add('developer-a/plugin_you_want_to_install-1')
 " ...
 " call dein#add('developer-z/plugin_you_want_to_install-xx')
