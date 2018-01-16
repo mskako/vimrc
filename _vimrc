@@ -69,6 +69,7 @@ endfunction
 let g:airline_section_y = '%{GetCharCode()} %{g:airline_right_alt_sep} %{GetEncoding()}'
 
 let g:airline#extensions#tabline#enabled = 1
-let g:airline_powerline_fonts = 1
+" powerline-symbol未適用のフォントでは文字化けするので注意
+" let g:airline_powerline_fonts = 1
 
 syntax on
